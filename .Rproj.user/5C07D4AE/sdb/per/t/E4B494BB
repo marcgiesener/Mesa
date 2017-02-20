@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "#basic bulll shit\n\nsetwd(\"~/Dropbox/Wharton/z Other/1 Water start up/Mesa/Mesa\")\n\n\nmesa.raw <- read.csv(\"CSV-WaterConsumptionbyPremise_2554899078378849689.csv\")\n\nhead(mesa.raw)\nsummary(mesa.raw)\n\n\nmesa.raw <- mesa.raw[!is.na(mesa.raw$SERVICE_CLASS_CODE),]\n",
+    "created" : 1487205305015.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2445777284",
+    "id" : "E4B494BB",
+    "lastKnownWriteTime" : 1487266848,
+    "last_content_update" : 1487266848716,
+    "path" : "~/Dropbox/Wharton/z Other/1 Water start up/Mesa/Mesa/Basic Mesa analysis.R",
+    "project_path" : "Basic Mesa analysis.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
